@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    min-height: 100%;
+    padding: 20px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.feedback-form {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.feedback-form label input, .feedback-form label textarea {
+    display: block;
+    margin-top: 5px;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #978888;
+}
+
+.feedback-form label input {
+    height: 36px;
+}
+
+.feedback-form label textarea {
+    padding: 5px 10px;
+}
+
+button {
+    width: 120px;
+    height: 32px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
